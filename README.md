@@ -4,7 +4,8 @@ Matlab/Simulink model of a Variable Frequency Converter
 Background:
 One of my professional interests is the variable frequency converter because 
 of the superior way it is able to control the speed and torque of an electrical motor.
-Matlab/Simulink is a great simulation tool for building the plant and controller.
+Matlab/Simulink is a great simulation tool for building the plant and controller in
+power electronics systems.
 
 Description:
 In this model, the plant consists of the three-phase power grid, power electronics part
