@@ -74,4 +74,4 @@ end
 w_nom = (2*pi/60)*motor.rpm_nom;    % Nominal angular velocity [rad/s]
 
 %%
-disp('Model parametrers initialized');    % Display that all the parameters have been initialized in the command window
+disp('Model parameters initialized');    % Display that all the parameters have been initialized in the command window
