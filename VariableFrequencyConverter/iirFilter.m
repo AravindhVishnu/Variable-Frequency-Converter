@@ -4,7 +4,7 @@ function [y1, y2, y3] = iirFilter(x1, x2, x3, ctrl)
 FILTER_FREQUENCY = 100;  %[Hz]
 
 % Filter coefficient
-FILT_K = ctrl.deltaControlProcess / ((1/(2*pi*FILTER_FREQUENCY)) + ctrl.deltaMeasurement);
+FILT_K = ctrl.deltaControlProcess / ((1/(2*pi*FILTER_FREQUENCY)) + ctrl.deltaControlProcess);
 
 % The persistent variables are retained in memory before calls to the function
 persistent y1Prev;
