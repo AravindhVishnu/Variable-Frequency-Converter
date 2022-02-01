@@ -12,7 +12,7 @@ In this model, the plant consists of the three-phase power grid, power electroni
 of the variable frequency controller and the electrical motor and load. The controller
 represents the embedded SW that is mainly responsible for sending the PWM on/off signals
 to the insulated gate bipolar transistors (IGBT). The power electronics module consists
-of the voltage source converter topology, since it is the most common. The controller
+of the voltage source inverter (VSI) topology, since it is the most common. The controller
 block implements the simplest form of converter control function which is the open loop
 V/Hz ramp. The PWM modulation technique can be either Sine, Saddle or Space Vector.
 The controller block consists of the control process block and the PWM driver block.
